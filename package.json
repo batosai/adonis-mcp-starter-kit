@@ -41,6 +41,7 @@
     "#mails/*": "./app/mails/*.js",
     "#services/*": "./app/services/*.js",
     "#listeners/*": "./app/listeners/*.js",
+    "#generated/*": "./.adonisjs/server/*.js",
     "#events/*": "./app/events/*.js",
     "#middleware/*": "./app/middleware/*.js",
     "#validators/*": "./app/validators/*.js",
@@ -50,6 +51,7 @@
     "#database/*": "./database/*.js",
     "#start/*": "./start/*.js",
     "#tests/*": "./tests/*.js",
+    "#transformers/*": "./app/transformers/*.js",
     "#config/*": "./config/*.js"
   },
   "devDependencies": {
