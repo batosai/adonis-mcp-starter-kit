@@ -1,3 +1,4 @@
+import { indexEntities } from '@adonisjs/core'
 import { defineConfig } from '@adonisjs/core/app'
 
 export default defineConfig({
@@ -11,10 +12,7 @@ export default defineConfig({
   | during upgrade.
   |
   */
-  experimental: {
-    mergeMultipartFieldsAndFiles: true,
-    shutdownInReverseOrder: true,
-  },
+  experimental: {},
 
   /*
   |--------------------------------------------------------------------------
@@ -69,17 +67,26 @@ export default defineConfig({
   tests: {
     suites: [
       {
-        files: ['tests/unit/**/*.spec(.ts|.js)'],
+        files: ['tests/unit/**/*.spec.{ts,js}'],
         name: 'unit',
         timeout: 2000,
       },
       {
-        files: ['tests/functional/**/*.spec(.ts|.js)'],
+        files: ['tests/functional/**/*.spec.{ts,js}'],
         name: 'functional',
         timeout: 30000,
       },
+      {
+        files: ['tests/browser/**/*.spec.{ts,js}'],
+        name: 'browser',
+        timeout: 300000,
+      },
     ],
     forceExit: false,
+  },
+
+  hooks: {
+    init: [indexEntities()],
   },
 
   directories: {
