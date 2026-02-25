@@ -11,3 +11,5 @@ import router from '@adonisjs/core/services/router'
 import { middleware } from '#start/kernel'
 
 router.mcp().use(middleware.mcp())
+
+router.get('/', async () => 'It works!')
