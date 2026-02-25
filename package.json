@@ -1,27 +1,11 @@
 {
   "name": "adonisjs-mcp-starter-kit",
-  "version": "0.1.3",
-  "description": "A starter kit for building applications using the Model Context Protocol (MCP) in AdonisJS.",
+  "version": "0.0.0",
+  "private": true,
   "type": "module",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "bin": {
     "adonis-mcp": "./build/bin/mcp.js"
-  },
-  "files": [
-    "build"
-  ],
-  "keywords": [
-    "mcp",
-    "model-context-protocol",
-    "adonis",
-    "adonisjs",
-    "documentation",
-    "ai",
-    "llm"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/batosai/adonis-mcp-docs"
   },
   "scripts": {
     "start": "node bin/server.js",
