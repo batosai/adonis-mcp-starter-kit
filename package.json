@@ -70,7 +70,7 @@
     "typescript": "~5.9.3"
   },
   "dependencies": {
-    "@adonisjs/core": "^6.20.0",
+    "@adonisjs/core": "^6.21.0",
     "@jrmc/adonis-mcp": "^1.0.0-beta.8",
     "reflect-metadata": "^0.2.2"
   },
