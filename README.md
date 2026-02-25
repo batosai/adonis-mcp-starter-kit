@@ -9,6 +9,5 @@ It is designed as a minimal starting point for building AdonisJS applications th
 ```bash
 npm init adonisjs@latest -- -K="batosai/adonisjs-mcp-starter-kit" --skip-migrations
 cd adonisjs-app
-cp .env.example .env
-node ace generate:key
+npm run dev
 ```
