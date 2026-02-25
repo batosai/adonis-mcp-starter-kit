@@ -1,4 +1,4 @@
-# AdonisJS Slim MCP Starter Kit
+# AdonisJS(v7) Slim MCP Starter Kit
 
 This repository provides the smallest possible AdonisJS application with the framework core and the Japa test runner, enhanced with MCP (Model Context Protocol) support.
 
