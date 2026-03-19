@@ -77,7 +77,7 @@ node ace make:mcp-prompt [prompt name]
 Your app will be running at `http://localhost:3333`
 
 
-## Exemple config server MCP in your app
+## Example config server MCP in your app
 
 You can use it as an HTTP server or via stdio (once published on npm).
 
