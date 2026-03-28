@@ -39,12 +39,12 @@
     "#config/*": "./config/*.js"
   },
   "devDependencies": {
-    "@adonisjs/assembler": "^8.1.0",
+    "@adonisjs/assembler": "^8.3.0",
     "@adonisjs/eslint-config": "^3.0.0",
     "@adonisjs/prettier-config": "^1.4.5",
     "@adonisjs/tsconfig": "^2.0.0",
     "@japa/assert": "^4.2.0",
-    "@japa/plugin-adonisjs": "^5.1.0",
+    "@japa/plugin-adonisjs": "^5.2.0",
     "@japa/runner": "^5.3.0",
     "@poppinss/ts-exec": "^1.4.4",
     "@types/node": "^25.5.0",
@@ -55,7 +55,7 @@
     "typescript": "~5.9.3"
   },
   "dependencies": {
-    "@adonisjs/core": "^7.1.1",
+    "@adonisjs/core": "^7.3.0",
     "@jrmc/adonis-mcp": "^1.0.0-beta.11",
     "reflect-metadata": "^0.2.2"
   },
